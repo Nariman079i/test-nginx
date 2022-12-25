@@ -94,7 +94,7 @@
         }
         .header-content{
             
-            width: 1920px;
+            width: 100%;
             height: 707px;
             background: url(image\ 3.png) center;
             background-size: cover;
@@ -173,7 +173,7 @@ font-size: 24px;
             
             display: block;
             margin-top: 500px;
-
+            
             font-weight: 300;
             font-size: 20px;
  
@@ -187,7 +187,7 @@ font-size: 24px;
             position: relative;
             width: 1311px;
             height: 543px;
-            margin: auto;
+            margin: 50px auto;
            
         }
         .image1{
@@ -273,6 +273,7 @@ background-size: cover;
         
         
         body{
+            width: 1920px;
             margin: 0;
             font-family: 'Radio Canada', sans-serif;
             
@@ -360,14 +361,26 @@ background-size: cover;
             margin-right: 34px;
             
         }
+        @media (max-width:1920px) {
+            body{
+                width: 1920px;
+            }
+            .header-content{
+                width: 1920px;
+            }
+            .gallery{
+                
+            }
+        }
         @media (min-width:1920px) {
+            body{
+                width: 100%;
+            }
             .header-content{
                 width: 100%;
             }
         }
-        @media (max-width:1920px) {
-            
-        }
+        
     </style>
 
 </body>
