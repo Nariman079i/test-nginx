@@ -270,7 +270,9 @@ background-size: cover;
 </div>
     </footer>
     <style>
-        
+        html{
+            width: 100%;
+        }
         
         body{
             width: 1920px;
@@ -400,57 +402,139 @@ background-size: cover;
             right: 60px;
            }
            .footer{
-            width: 1270px;
+            width: 100%;
            }
         }
         @media (max-width:1386px) {
+            .nav{
+                width:100%;
+            }
             body{
             width: 100%;
             }
             .header{
-                display: block;
-                margin: 0 auto;
-            }
-            .header-logo{
+                width: 100%;
                 display: block;
                 margin: auto;
             }
+            .header-logo{
+                display: block;
+                margin: 60px auto;
+            }
             .header-text{
+                width: 60%;
+                height: max-content;
                 display: block;
                 margin: 50px auto;
             }
             .header-content{
-                width: 1386px;
+                width: 100%;
                 height: 1000px;
             }
             .tour-wrapper{
                 display: block;
                 margin: 10px auto;
             }
-            .tour{
+            .tours{
                 width: 650px;
                 margin: 60px auto;
             }
-            .theme-title{
-                text-align: center;
+            .footer{
                 width: 100%;
+
             }
+            .footer-logo{
+                
+            }
+            
+                
+            
+        }
+        @media (max-width:1024px) {
+            .nav{
+                width:1024px;
+            }
+            body{
+            width: 100%;
+            }
+            .header{
+                width: 100%;
+                display: block;
+                margin: auto;
+            }
+            .header-logo{
+                display: block;
+                margin: 60px auto;
+            }
+            .header-text{
+                width: 60%;
+                height: max-content;
+                display: block;
+                margin: 50px auto;
+            }
+            .header-content{
+                width: 100%;
+                height: 1000px;
+            }
+            .tour-wrapper{
+                display: block;
+                margin: 10px auto;
+            }
+            .tours{
+                width: 650px;
+                margin: 60px auto;
+            }
+            .footer{
+                width: 1024px;
+                height: max-content;
+                display: block;
+                padding-bottom: 190px;
+            }
+            .footer-logo{
+                display: block;
+                margin: auto;
+            }
+            
         }
         @media (max-width:768px) {
-            body{
+            .nav{
                 width: 100%;
+            }
+            body{
+                width: 768px;
             }
             .header{
                 display: inline;
             }
+            .tours{
+                width: 100%;
+            }
             .tour-wrapper{
+                width: 600px;
                 display: block;
+                margin:10px auto;
+            }
+            .url-tour{
+                text-decoration: none;
+                position: absolute;
+                bottom: 30px;
+                left: 470px;
+                font-weight: 400;
+                font-size: 20px;
+                color: #FFFFFF;
             }
             .header-block{
-                width: 100%;
+                width: 768px;
             }
             .header-content{
                 width: 768px;
+            }
+            .header-text{
+                width: 600px;
+                height: max-content;
+            }
+            .gallery{
+                visibility: hidden;
             }
            .logo{
             left: 5px;
@@ -459,10 +543,21 @@ background-size: cover;
             right: 5px;
            }
            .footer{
-            width: 768px;
+            width: 100%;
+            height: max-content;
+            display: block;
+            padding-bottom: 90px;
            }
+           .footer-logo{
+            margin: auto;
+           }
+        
         }
         @media (max-width:480px) {
+            .nav{
+                width: 480px;
+                
+            }
             body{
                 width: 480px;
             }
@@ -470,10 +565,13 @@ background-size: cover;
                 width: 100%;
             }
            .logo{
-            left: 5px;
+            left: 0px;
            }
            .urls{
-            right: 5px;
+            right: 0px;
+           }
+           .urls a{
+            font-size: 20px;
            }
            .footer{
             width: 480px
