@@ -94,7 +94,7 @@
         }
         .header-content{
             
-            width: 100%;
+            width: 1920px;
             height: 707px;
             background: url(image\ 3.png) center;
             background-size: cover;
@@ -383,15 +383,15 @@ background-size: cover;
                 width: 100%;
             }
             .footer{
-                width: 1920px;
+                width: 100%;
             }
         }
-        @media (max-width:1270px) {
+        @media (max-width:1720px) {
             body{
-                width: 1270px;
+                width: 100%;
             }
             .header-content{
-                width: 1270px;
+                width: 100%;
             }
            .logo{
             left: 60px;
@@ -403,18 +403,63 @@ background-size: cover;
             width: 1270px;
            }
         }
-        @media (max-width:768px) {
+        @media (max-width:1386px) {
             body{
-                width: 768px;
+            width: 100%;
+            }
+            .header{
+                display: block;
+                margin: 0 auto;
+            }
+            .header-logo{
+                display: block;
+                margin: auto;
+            }
+            .header-text{
+                display: block;
+                margin: 50px auto;
             }
             .header-content{
-                width: 480px;
+                width: 1386px;
+                height: 1000px;
+            }
+            .tour-wrapper{
+                display: block;
+                margin: 10px auto;
+            }
+            .tour{
+                width: 650px;
+                margin: 60px auto;
+            }
+            .theme-title{
+                text-align: center;
+                width: 100%;
+            }
+        }
+        @media (max-width:768px) {
+            body{
+                width: 100%;
+            }
+            .header{
+                display: inline;
+            }
+            .tour-wrapper{
+                display: block;
+            }
+            .header-block{
+                width: 100%;
+            }
+            .header-content{
+                width: 768px;
             }
            .logo{
             left: 5px;
            }
            .urls{
             right: 5px;
+           }
+           .footer{
+            width: 768px;
            }
         }
         @media (max-width:480px) {
@@ -429,6 +474,9 @@ background-size: cover;
            }
            .urls{
             right: 5px;
+           }
+           .footer{
+            width: 480px
            }
         }
     </style>
