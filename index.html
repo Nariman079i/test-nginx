@@ -4,680 +4,92 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <title>Main Page</title>
+    <title>Document</title>
 </head>
 <body>
-    <nav class="nav">
-        <div class="logo">
-            <img class="logo-img" src="./image 1.png"  alt="">
-            <p>ЭТНО</p>
-        </div>
-        <div class="urls">
-            <a href="">Главная</a>
-            <a href="">Галерея</a>
-            <a href="">О нас</a>
-        </div>
-    </nav>
-    
-    <div class="header-content">
-        <br>
-        <div class="header-block">
-            
-            <div class="header">
-                <div class="header-logo">
-                    <img class="footer-logo-img" src="image 1.png"  alt="">
-                    <p align="center" style="font-size: 64px; font-weight: 700; margin: 0;">ЭТНО</p>
-                    <p align="center"  style="font-size: 20px; margin: 0;">© 2022 ООО “ЭТНО”</p>
-                </div>
-                <div class="header-text">
-                    Туристический сайт “Этно”  в Калужской области предлагает всем желающим провести незабываемый день и посетить интерактивные площадки, а также познакомиться с культурой и традициями народов мира. Посетить этнопарк можно за определенную сумму, однако для этого нужно предварительно зарегистрироваться на сайте. Для регистрации необходимо заполнить соответствующую форму и указать ФИО, дату рождения, номер телефона (можно с кодом страны) и электронную почту. Кроме этого, для регистрации на сайте необходимо быть старше 16 лет.
-                </div>
+    <div class="content">
+        <div class="nav">
+            <div class="nav logo">
+MAIN LOGO
+            </div>
+            <div class="nav panel">
+                <a href="">Price-List</a>
+                <a href="">Main</a>
+                <a href="">About</a>
             </div>
         </div>
-            
-    </div>
-    <br>
-    <p class="theme-title">Галерея</p>
-    
-    <div class="gallery">
-        <div class="image1"> </div>
-        <div class="image2"></div>
-        <div class="image3"> </div>
-        <div class="image4"></div>
-        <div class="image5"></div>
-        <div class="image6"></div>
-        <br>
-        <a href="" class="url-gallery">Ещё картинки...</a>
-    </div>
-    <br>
-    <p class="theme-title">Туры</p>
-    <div class="tours">
-        <div class="tour-wrapper" style="background:url(https://miro.medium.com/max/7000/1*kNN7iWXLt82Dphqja7SJZA.jpeg) center; background-size: cover ;">
-            <div class="ds"></div>
-            <span class="tour-title">Гуниб</span>
-            <span class="tour-price">2500р</span>
-            <a href="" class="url-tour">Перейти</a>
-        </div>
-        <div class="tour-wrapper" style="background:url(https://miro.medium.com/max/7000/1*kNN7iWXLt82Dphqja7SJZA.jpeg) center; background-size: cover ;">
-            <div class="ds"></div>
-            <span class="tour-title">Гуниб</span>
-            <span class="tour-price">2500р</span>
-            <a href="" class="url-tour">Перейти</a>
-        </div>
-        <br>
-        <div class="tour-wrapper" style="background:url(https://miro.medium.com/max/7000/1*kNN7iWXLt82Dphqja7SJZA.jpeg) center; background-size: cover ;">
-            <div class="ds"></div>
-            <span class="tour-title">Гуниб</span>
-            <span class="tour-price">2500р</span>
-            <a href="" class="url-tour">Перейти</a>
-        </div>
-        <div class="tour-wrapper" style="background:url(https://miro.medium.com/max/7000/1*kNN7iWXLt82Dphqja7SJZA.jpeg) center; background-size: cover ;">
-            <div class="ds"></div>
-            <span class="tour-title">Гуниб</span>
-            <span class="tour-price">2500р</span>
-            <a href="" class="url-tour">Перейти</a>
-        </div>
-
-        <style>
-            .header{
-                display: flex;
-
-            }  
-            .header-block{
-                width: max-content;
-                height: 264px;
-                margin-left:  auto;
-                margin-right: auto;
-                margin-top: 120px;
-            }
-            .header-content{
-                
-                width: 100%;
-                height: 707px;
-                background: url(image\ 3.png) center;
-                background-size: cover;
-            }  
-
-            .header-logo{
-                width: 250px;
-                
-                color: aliceblue;
-            }
-            .header-text{
-                margin-left: 60px;
-                margin-top: 100px;
-                font-weight: 500;
-                font-size: 24px;
-
-                width: 1016px;
-                height: 216px;
-                color: aliceblue;
-            }
-            .tours{
-               
-                
-                width: 1320px;
-                height: max-content;
-                margin: 60px auto;
-            }
-            .tour-wrapper{
-                margin-top: 5px;
-
-                display:inline-flex;
-                position: relative;
-                width: 650px;
-                height: 300px;
-                
-                background: linear-gradient(0deg, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35));
-                box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
-                border-radius: 40px;
-            }
-            .ds{
-                display: block;
-                width: 100%;
-                height: 100%;
-                background-color: #00000088;
-                border-radius: 40px;
-            }
-            .tour-title{
-                position:absolute;
-                top: 40px;
-                left: 50px;
-                font-weight: 700;
-                font-size: 36px;
-                color: #FFFFFF;
-            }
-            .tour-price{
-                position: absolute;
-                bottom: 30px;
-                left: 30px;
-                font-weight: 400;
-                font-size: 24px;
-                color: #FFFFFF;
-            }
-            .url-tour{
-                text-decoration: none;
-                position: absolute;
-                bottom: 30px;
-                left: 535px;
-                font-weight: 400;
-                font-size: 20px;
-                color: #FFFFFF;
-            }
-        </style>
-    </div>
-    <p class="theme-title">Интересные места</p>
-    <div class="interesting-place">
-        <div class="interesting-place-wrapper">
-            <div class="ip-img" style="background: url(https://static.tildacdn.com/tild3230-6461-4030-a332-333031353434/kamennaya-chasha.jpg) center;background-size: cover;"></div>
-            <div class="ip-data"> 
-                <p class="ip-title">Каменная чаша</p>
-                <p class="ip-desc">
-
-                    Неприметные скалы, спрятавшиеся за извилистым серпантином, скрывают внутри совершенно другой мирНеприметные скалы, спрятавшиеся за извилистым серпантином, скрывают внутри совершенно другой мир Неприметные скалы, спрятавшиеся за извилистым серпантином, скрывают внутри совершенно другой мир 
-                </p>
-                <p class="ip-place">Место нахождения: Хунзах</p>
+        <div class="section">
+            <div class="section-image">
+                <div class="main-image 1"></div>
+                <div class="main-image 2"></div>
+                <div class="main-image 3"></div>
+                <div class="main-image 1"></div>
+                <div class="main-image 2"></div>
+                <div class="main-image 3"></div>
             </div>
+            
         </div>
-        <hr class="hre">
     </div>
-    <style>
-        .interesting-place{
-            display: block;
-            margin: 80px auto;
-            width: 1194px;
-        }
-        .interesting-place-wrapper{
-            display: flex;
-
-        }
-        .ip-img{
-            width: 600px;
-            height: 300px;
-            border-radius: 40px;
-            
-        }
-        .ip-data{
-            display: block;
-            margin: 10px;
-            height: 300px;
-        }
-        .ip-title{
-            display: block;
-            font-weight: 500;
-            font-size: 36px;
-            margin: 0;
-            margin-left: 33px;
-        }
-        .ip-desc{
-            display: block;
-            margin: 10px 0;
-            margin-left: 33px;
-            width: 561px;
-            height: 169px;
-            font-weight: 400;
-            font-size: 20px;
-        }
-        .ip-place{
-            display: block;
-            font-weight: 400;
-            font-size: 24px;
-            margin-top: 16px;
-            margin-left: 33px;
-        }
-    </style>
-    <style>
-        .url-gallery{
-            
-            display: block;
-            margin-top: 500px;
-            
-            font-weight: 300;
-            font-size: 20px;
- 
-
-            text-align: center;
-
-            color: #705700;
-
-        }
-        .gallery{
-            position: relative;
-            width: 1311px;
-            height: 543px;
-            margin: 50px auto;
-           
-        }
-        .image1{
-            
-            position: absolute;
-            width: 500px;
-            height: 500px;
-            left: 0px;
-            top: 0px;
-            background-size: cover;
-            background-image: url(https://miro.medium.com/max/7000/1*kNN7iWXLt82Dphqja7SJZA.jpeg);
-            
-            
-        }
-        .image2{
-            position: absolute;
-            width: 290px;
-            height: 290px;
-            left: 510px;
-            top: 0;
-            background-size: cover;
-            background-image: url(https://miro.medium.com/max/7000/1*kNN7iWXLt82Dphqja7SJZA.jpeg);
-        }
-        .image3{
-            position:absolute;
-            width: 500px;
-            height: 500px;
-            left: 810px;
-            top: 0px;
-            background-size: cover;
-            background-image: url(https://miro.medium.com/max/7000/1*kNN7iWXLt82Dphqja7SJZA.jpeg);
-        }
-        .image4{
-            position: absolute;
-            width: 200px;
-            height: 200px;
-            left: 510px;
-            top: 300px;
-            background-size: cover;
-            background-image: url(https://miro.medium.com/max/7000/1*kNN7iWXLt82Dphqja7SJZA.jpeg);
-        }
-        .image5{
-            position: absolute;
-            width: 80px;
-            height: 80px;
-            left: 720px;
-            top: 300px;
-            background-size: cover;
-            background-image: url(https://miro.medium.com/max/7000/1*kNN7iWXLt82Dphqja7SJZA.jpeg);
-        }
-        .image6{
-            position: absolute;
-            width: 80px;
-            height: 80px;
-            left: 720px;
-            top: 390px;
-            background-size: cover;
-            background-image: url(https://miro.medium.com/max/7000/1*kNN7iWXLt82Dphqja7SJZA.jpeg);
-        }
-    </style>
-    <br>
-    <br>
-    <br>
-    <footer class="footer">
-<div class="footer-logo">
-    <img class="footer-logo-img" src="./image 1.png"  alt="">
-    <p align="center" style="font-size: 64px; font-weight: 700; margin: 0;">ЭТНО</p>
-    <p align="center"  style="font-size: 20px; margin: 0;">© 2022 ООО “ЭТНО”</p>
-</div>
-
-
-<div>
-
-</div>
-<div class="contacts">
-<p class="contacts-title">КОНТАКТЫ</p>
-<p>Адрес: г. Дербент</p>
-<p>Телефон: +7 (929) 874-64-11</p>
-<p>Email: kavkaz-travel05@inbox.ru</p>
-</div>
-    </footer>
-    <style>
-        html{
-            
-            overflow-x: hidden;
-        }
-        
-        body{
-            width: 1920px;
-            margin: 0;
-            font-family: 'Roboto', sans-serif;
-            
-        }
-        .theme-title{
-            margin-top: 90px;
-            font-style: normal;
-            font-weight: 700;
-            font-size: 36px;
-            
-            text-align: center;
-
-            color: #000000;
-
-        }
-        .nav{
-            position: fixed;
-            width: 100%;
-            height: 80px;
-            background-color: black;
-            z-index: 1;
-           
-        }
-        .footer{
-            
-            width: 100%;
-            height: 383px;
-            background-color: black;
-            color: aliceblue;
-            display: flex;
-        }
-        .footer-logo{
-            width: 250px;
-            margin-left: 300px;
-        }
-        .footer-logo-img{
-            margin-top: 60px;
-            width: 250px;
-            height: 176px;
-        }
-        .contacts{
-            margin-top: 85px;
-            margin-left: 143px;
-           
-        }
-        .contacts-title{
-            font-weight: 400;
-            font-size: 32px;
-            color: #705700;
-        }
-        .logo{
-            position:absolute;
-            left: 300px;
-            display: flex;
-            margin-top: 15px;
-        }
-        .logo p{
-            margin: 0;
-            width: 100px;
-        
-            color: aliceblue;
-            text-decoration: none;
-            font-weight: 700;
-            font-size: 24px;
-            margin: 10px
-        }
-
-        .logo-img{
-            width: 61px;
-            height: 43px;
-        }
-        .urls{
-            position: absolute;
-            right: 300px;
-            margin-top: 25px;
-            
-        }
-
-        .urls a{
-            color: aliceblue;
-            text-decoration: none;
-            font-weight: 400;
-            font-size: 24px;
-            line-height: 29px;
-            margin-right: 34px;
-            
-        }
-        @media (max-width:1024px) {
-            body{
-                max-width: 100%;
-            }
-           
-            .logo{
-                left: 150px;
-            }
-            .urls{
-                right: 150px;
-            }
-            .header{
-                display: block;
-            }
-            .header-logo{
-                
-                margin:-60px auto;
-            }
-            .header-content{
-                width: 100%;
-                
-            }
-            .header-text{
-
-                display: block;
-                margin:80px auto;
-                width: 731px;
-                height: 205px;
-                font-size: 20px;
-            }
-            .gallery{
-                width: 800px;
-                display: block;
-                
-            }
-            .image3{
-                visibility:hidden;
-
-            }
-            .tours{
-                width: 650px;
-            }
-            .interesting-place{
-                width: 100%;
-            }
-            .interesting-place-wrapper{
-                display: block;
-                margin: auto;
-            }
-            .ip-img{
-                display: block;
-                margin: auto;
-            }
-            .ip-data{
-                width: 600px;
-                display: block;
-                
-                margin:30px auto;
-                
-            }
-            .hre{
-                width: 600px;
-                border: 1px solid #705700;
-            }
-            .footer{
-                width: 100%;
-
-            }
-            .footer-logo{
-                margin-left: 153px;
-            }
-
-        }
-        @media (max-width:840px) {
-            
-            .logo{
-                left:20%;
-            }
-            .urls{
-                right: 20%;
-            }
-            .urls a{
-                font-size: 20px;
-            }
-            .header-content{
-                width: 100%;
-                height: 800px;
-            }
-            .header-logo{
-                margin-top: -90px;
-            }
-            .header-text{
-
-                margin:80px auto;
-                width: 560px;
-                height: 240px;
-                font-size: 20px;
-                font-weight: 400;
-            }
-            .gallery{
-                width: 600px;
-            }
-            .image1{
-                width: 370px;
-                height: 370px;
-            }
-            .image2{
-                width: 215px;
-                height: 215px;
-                left: 375px;
-
-            }
-            .image4{
-                width: 150px;
-                height: 150px;
-                left: 375px;
-                top: 220px;
-            }
-            .image5{
-                width: 60px;
-                height: 60px;
-                left: 530px;
-                top: 220px;
-            }
-            .image6{
-                width: 60px;
-                height: 60px;
-                left: 530px;
-                top: 285px;
-            }
-            .url-gallery{
-                margin-top: 370px;
-            }
-            .footer{
-                display: block;
-                height: 863px;
-            }
-            .footer-logo{
-                display: block;
-                margin: auto;
-            }
-            .contacts{
-                width: max-content;
-                margin: 0 auto
-            }
-
-        }
-        @media (max-width:680px) {
-            
-            body{
-                
-                width: 100%;
-                
-            }
-            .nav{
-                width: 100%;
-                position:relative;
-            }
-            .logo{
-                left: 5px;
-            }
-            .urls{
-                right: -4px;
-            }
-            .urls a{
-                font-size: 16px;
-            }
-            .header-text{
-
-            margin:80px auto;
-            width: 369px;
-            height: 274px;
-            font-size: 18px;
-            font-weight: 400;
-            }
-            .header-content{
-                width: 100%;
-            }
-            .tours{
-                width: 340px;
-                display: block;
-                margin: auto;
-            }
-            .tour-wrapper{
-                width: 340px;
-                height: 200px;
-                border-radius: 20px;
-            }
-            .ds{
-                border-radius: 20px; 
-            }
-            .url-tour{
-                left: 200px;
-            }
-            .gallery{
-                width: 370px;
-            }
-            .image2{
-                top: 375px;
-                left: 0;
-            }
-            .image4{
-                top: 375px;
-                left: 220px;
-            }
-            .image5{
-                top: 530px;
-                left: 220px;
-            }
-            .image6{
-                top: 530px;
-                left: 285px;
-            }
-            .url-gallery{
-                margin-top: 580px;
-            }
-            .interesting-place{
-                width: 340px;
-            }
-            .interesting-place-wrapper{
-                width: max-content;
-            }
-            .ip-img{
-                width: 340px;
-                height:200px;
-
-            }
-            .ip-data{
-                width: 340px;
-                display: block;
-                margin: 10px auto;
-            }
-            .ip-title{
-                font-size: 32px;
-                margin-left: 0;
-            }
-            .ip-desc{
-                width: 340px;
-                height: 140px;
-                font-size: 16px;
-                margin: 0;
-            }
-            .ip-place{
-                margin: 0;
-            }
-            .hre{
-                width: 400px;
-            }
-            .footer{
-                width: 100%;
-            }
-        }
-    </style>
-
+    
 </body>
+<style>
+    body{
+        margin:0px;
+        background-color: #D9D9D9;
+    }
+    .content{
+        margin: auto;
+        width: 1170px;
+        height:100vh;
+        background-color: #606060;
+    }
+    .nav{
+        width: 100%;
+        height: 80px;
+        
+        background-color: #8E8E8E;
+        display: flex;
+    }
+    .nav .logo{
+        
+        
+        display: inline;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 80px;
+        
+        color: #FFFFFF;
+        margin-top: auto;
+    }
+    .nav .panel{
+        width: 400px;
+       
+    }
+    .nav .panel a{
+        color: #FFFFFF;
+        display: block;
+        font-weight: 400;
+        font-size: 24px;
+        margin: auto auto;
+        text-decoration: none;
+        text-align: right;
+    }
+    .section{
+        width: 1010px;
+        height: max-content;
+        margin:40px auto;
+    }
+    .section-image{
+        width: 1010px;
+        display: block;
+        margin:0 auto;
+    }
+    .main-image{
+        display: inline-block;
+        width: 300px;
+        height: 300px;
+        background: #D9D9D9;
+        margin:15px;
+    }
+</style>
 </html>
