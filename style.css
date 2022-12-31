@@ -3,6 +3,7 @@
     margin: 0;
     
     text-decoration: none;
+    padding: 0;
 }
 img{
     width: 100px;
@@ -77,7 +78,7 @@ body{
     color: #fff;
 }
 .header-logo{
-
+    width: 250px;
 }
     .header-logo-img{
         width: 250px;
@@ -162,7 +163,7 @@ body{
         url(https://avatars.dzeninfra.ru/get-zen_doc/2807006/pub_6144d8059cd97b326b230565_6144d8068a833355e74d35d5/scale_1200)
         center;}   
 .gallery-wrapper{
-    width: 1000px;
+    width: 980px;
     height:400px;}
 .urls{
     font-weight: 400;
@@ -215,3 +216,113 @@ body{
         color: #fff;
 
     }
+
+.interesting-places{
+    width: 1010px;
+    margin: 25px auto;
+}
+.ipw{
+    display: flex;
+    margin: 10px;
+}
+.ipw-img{
+    width: 500px;
+    height: 200px;
+    border-radius: 30px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.45));
+}
+.ipw-info{
+    width: 505px;
+}
+    .ipw-title{
+        width: 500px;
+        height: 29px;
+
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 29px;
+
+        color: #000000;
+        margin-left: 10px;
+    }
+    .ipw-desc{
+        margin-left: 10px;
+        margin-top: 3px;
+        width: 500px;
+        height: 141px;
+        left: 965px;
+        top: 2404px;
+
+        font-family: 'Comfortaa';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 22px;
+
+        color: #000000;
+    }
+    .ipw-place{
+        margin-left: 10px;
+        width: 500px;
+        height: 22px;
+       
+
+        font-family: 'Comfortaa';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 22px;
+
+        color: #000000;
+    }
+    .hre{
+        margin:20px auto;
+        width: 781px;
+        border: 1px solid #705700;
+    }
+
+.footer{
+    width: 100%;
+    height: 383px;
+    background-color: #000000;
+    color: #fff;
+    
+}
+.footer-content{
+    display: flex;
+    width: 1010px;
+    
+    margin: auto;
+}
+    .footer-logo{
+
+        margin-top: 57px;
+
+        width: 250px;
+       
+        
+        color: #fff;
+        text-align: center;
+    }
+    .footer-logo-img{
+        width: 250px;
+        height: 171px;
+    }
+    .footer-logo-title{
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 45px;
+    }
+.footer-contacts{
+    margin: auto 57px;
+}
+.footer-contacts-title{
+    margin-bottom: 50px;
+    color: #705700;
+
+    font-weight: 400;
+    font-size: 32px;
+}
+.footer-contacts-info{
+    font-weight: 300;
+}

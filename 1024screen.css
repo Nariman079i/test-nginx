@@ -1,0 +1,163 @@
+@media (max-width:1024px) {
+   
+    .nav{
+        width: 100%;
+    }
+    .nav-content{
+        width: 480px;
+        
+    }
+    .nav-urls a{
+        margin: auto 10px;
+    }
+    .header{
+        width: 100%;
+    }
+    .header-background{
+        width: 100%;
+        height: 100%;
+    }
+    .header-content{
+        width:100%;
+        margin-top: auto;
+        display: block;
+    }
+    .header-logo{
+        margin:40px auto;
+    }
+    .header-text{
+        width: 80%;
+        margin: auto;
+    }
+    .gallery-wrapper{
+        width: 615px;
+
+    }
+    .gallery-img-3{
+        width: 0px;
+        margin: 0;
+        visibility: hidden;
+    }
+    .tours{
+        width: max-content;
+    }
+    .tour-wrapper{
+        display: block;
+        margin:5px auto;
+    }
+    .interesting-places{
+        width: max-content;
+        margin: 25px auto;
+    }
+    .ipw{
+        margin:20px auto;
+        display: block;
+        border: none;
+        border-bottom: 2px solid #705700 ;
+    }
+    .hre{
+        width: auto;
+    }
+    footer{
+        width: 100%;
+    }
+    .footer-content{
+        width: 100%;
+    }
+}
+@media (max-width:680px) {
+    .gallery{
+        margin: auto;
+    }
+    .gallery-wrapper{
+       width: 250px;
+        
+    }
+    .gallery-img-1{
+        width: 0px;
+        margin: 0;
+        visibility: hidden;  
+    }
+    .gallery-img-2{
+        top: 0; 
+        left: 0;
+    }
+    .gallery-img-4{
+        top: 255px; 
+        left: 0;
+    }
+    .gallery-img-5{
+        top: 255px; 
+        left: 155px;
+    }
+    .gallery-img-5{
+        top: 255px; 
+        left: 155px;
+    }
+    .gallery-img-6{
+        top: 325px; 
+        left: 155px;
+    }
+
+    
+}
+@media (max-width:540px) {
+    .nav-urls {
+        font-size: 10px;
+        
+    }
+    nav{
+        width: 100%;
+        display: block;
+    }
+    .nav-content{
+        width: 100%;
+    }
+    .nav-logo{
+        width: 100px;
+        flex: 0;
+    }
+    .tours{
+        width: 320px;
+
+    }
+    .tour-wrapper{
+        width: 320px;
+    }
+    .interesting-places{
+        width: 320px;
+        margin: 25px auto;
+    }
+    .ipw{
+        
+        margin:20px auto;
+        display: block;
+        border: none;
+        border-bottom: 2px solid #705700 ;
+    }
+    .ipw-img{
+        width: 320px;
+        height: 150px;
+    }
+    .ipw-info{
+        width: 320px;
+    }
+    .ipw-title{
+        width: auto;
+    }
+    .ipw-desc{
+        width: 320px;
+    }
+    .ipw-place{
+        width: auto;
+    }
+    .footer{
+        width: 100%;
+    }
+    .footer-content{
+        display: block;
+    }
+    
+    
+
+}
