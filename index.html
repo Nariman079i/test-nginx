@@ -5,185 +5,111 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="content">
-        <div class="nav">
-            <div class="nav logo">
-MAIN LOGO
+    <div class="nav">
+        <div class="nav-content">
+            <div class="nav-logo">
+                <img  class="nav-logo-img" src="./header-logo.png" alt="">
+                <span class="nav-logo-title">ЭТНО</span>
             </div>
-            <div class="nav panel">
-                <a href="">Price-List</a>
-                <a href="">Main</a>
-                <a href="">About</a>
+            <div class="nav-urls">
+                <a href="">Главная</a>
+                <a href="">Галерея</a>
+                <a href="">О сайте</a>
+            </div>
+        </div></div>
+        
+
+
+    <div class="header">
+        
+        <div class="header-background">
+            <br>
+            <div class="header-content">
+                
+                <div class="header-logo">
+                    <img class="header-logo-img" src="./header-logo.png" alt="">
+                    <p class="header-logo-title">ЭТНО</p>
+                    <p class="header-logo-info">Туристическое агнство</p>
+                </div>
+                <div class="header-text">
+                    Этно графический музей под открытым небом в городе Пльзень в
+                    Чехии – это целый комплекс, который представляет собой более чем 300-летнюю историю города, 
+                    его культуру и быт. Здесь можно увидеть не только предметы быта, но и памятники истории, культуры и архитектуры.
+                    В музее под открытым небом можно найти все: от предметов быта до памятников архитектуры, 
+                    от археологических находок до подлинных исторических документов. История возникновения музея под открытым небом
+                </div>
             </div>
         </div>
-        <div class="section">
-            <div class="section-image">
-                <div class="main-image 1"></div>
-                <div class="main-image 2"></div>
-                <div class="main-image 3"></div>
-                <div class="main-image 1"></div>
-                <div class="main-image 2"></div>
-                <div class="main-image 3"></div>
-            </div>
-            
+       
+    </div>
+    <p class="theme-title">Галерея</p>
+    <div class="gallery">
+        <div class="gallery-wrapper">
+            <div class="gallery-img-1"></div>
+            <div class="gallery-img-2"></div>
+            <div class="gallery-img-3"></div>
+            <div class="gallery-img-4"></div>
+            <div class="gallery-img-5"></div>
+            <div class="gallery-img-6"></div>
+        </div>
+        <p class="urls"><a href="">Ещё картинки...</a></p>
+        
+    </div>
+    <p class="theme-title">Туры</p>
+    <div class="tours">
+        <div class="tour-wrapper" style="background:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://supersnimki.ru/images/pub/2019/08/30/48c4c5c1-caf2-11e9-a563-86f0df91657e_original.jpg?688328) center; ">
+            <p class="tour-title">Хунзах</p>
+            <span class="tour-price">2500p</span>
+            <a class="tour-url" href="">Перейти</a>
+        </div>
+        <div class="tour-wrapper" style="background:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://supersnimki.ru/images/pub/2019/08/30/48c4c5c1-caf2-11e9-a563-86f0df91657e_original.jpg?688328) center; ">
+            <p class="tour-title">Хунзах</p>
+            <span class="tour-price">2500p</span>
+            <a class="tour-url" href="">Перейти</a>
+        </div>
+        <div class="tour-wrapper" style="background:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://supersnimki.ru/images/pub/2019/08/30/48c4c5c1-caf2-11e9-a563-86f0df91657e_original.jpg?688328) center; ">
+            <p class="tour-title">Хунзах</p>
+            <span class="tour-price">2500p</span>
+            <a class="tour-url" href="">Перейти</a>
+        </div>
+        <div class="tour-wrapper" style="background:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://supersnimki.ru/images/pub/2019/08/30/48c4c5c1-caf2-11e9-a563-86f0df91657e_original.jpg?688328) center; ">
+            <p class="tour-title">Хунзах</p>
+            <span class="tour-price">2500p</span>
+            <a class="tour-url" href="">Перейти</a>
         </div>
     </div>
-    
-</body>
-<style>
-    body{
-        margin:0px;
-        background-color: #D9D9D9;
-    }
-    .content{
-        margin: auto;
-        width: 1170px;
-        height:max-content;
-        background-color: #606060;
-    }
-    .nav{
-        width: 100%;
-        height: 80px;
-        
-        background-color: #8E8E8E;
-        display: flex;
-    }
-    .nav .logo{
-        
-        
-        display: inline;
-        font-weight: 400;
-        font-size: 36px;
-        line-height: 80px;
-        
-        color: #FFFFFF;
-        margin-top: auto;
-    }
-    .nav .panel{
-        width: 400px;
-       
-    }
-    .nav .panel a{
-        color: #FFFFFF;
-        display: block;
-        font-weight: 400;
-        font-size: 24px;
-        margin: auto auto;
-        text-decoration: none;
-        text-align: right;
-    }
-    .section{
-        width: 1010px;
-        height: max-content;
-        margin:40px auto;
-    }
-    .section-image{
-        width: 1010px;
-        display: block;
-        margin:0 auto;
-    }
-    .main-image{
-        display: inline-block;
-        width: 300px;
-        height: 300px;
-        background: #D9D9D9;
-        margin:15px;
-    }
-    @media (max-width:1170px) {
-        .content{
-            width: 100%;
-        }
-        
-    }
-    @media (max-width:1024px) {
+    <p class="theme-title">Интересные места</p>
+    <div class="interesting-places">
+        <div class="interesting-place-wrapper">
+            <div class="ipw-img" style="">
 
-        .nav .logo{
-            margin-left: 30px;
-        }
-        .nav .panel{
-            margin-right: 30px;
-        }
-       .section{
-        width: 768px;
-       }
-       .section-image{
-        width: 100%;
-        margin:0 auto;
-       }
-       .main-image{
-        margin:38px;
-       }
-        
-    }
-    @media (max-width:768px) {
-        
-        body{
-            width: 100%;
-            
-        }
-        .content{
-            width: 100%;
-            
-        }
-        .section{
-        width: 90%;
-        
-       }
-       .section-image{
-        width: 90%;
-        margin:0  auto;
-       }
-       .main-image{
-        width: 100%;
-        margin:auto;
-       }
-       .nav .logo{
-            font-size: 16px;
-            width:30% ;
-        }
-        .nav .panel{
-            width: 70%;
-        }
-    }
-    @media (max-width:480px) {
-        body{
-            width: 100%;
-            margin: -1px;
-        }
-        .content{
-            width: 100%;
-            margin: 0 auto;
-        }
-        .section{
-         width: 100%;
-        }
-        .section-image{
-         width: 380;
-         margin:0 auto;
-        }
-        .main-image{
-         width: 90%;
-         margin: 20px;;
-        }
-        .nav .logo{
-             font-size: 10px;
-             width:20% ;
-         }
-         .nav .panel{
-             width: 80%;
-         }
-         .nav .logo{
-            font-size: 16px;
-            width:50% ;
-        }
-        .nav .panel{
-            width: 50%;
-        }
-        .nav .panel a{
-            font-size: 16px;
-        }
-     }
-</style>
+            </div>
+            <div class="ipw-info">
+                <p class="ipw-title">Каменная чаша</p>
+                <p class="ipw-deck">Хунзах ский район Дагестана — 
+                    самая древняя часть Дагестана, 
+                    где находится единственный в мире действующий вулкан.</p>
+                <p class="ipw-place">Место нахождения: Хунзах</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-logo">
+            <img class="footer-logo-img" src="/header-logo.png" alt="">
+            <p class="footer-logo-title"></p>
+            <p class="footer-logo-info"></p>
+            <p class="footer-logo-info_2"></p>
+        </div>
+        <div class="footer-contacts">
+            <p class="footer-contacts-title"></p>
+            <p class="footer-contacts-info"></p>
+        </div>
+    </div>
+</body>
 </html>
