@@ -206,7 +206,7 @@
         font-size: 24px;
     }
     .travel{
-        width: 320px;
+        width: 300px;
         margin: auto;
     }
     .travel-programm{
@@ -231,19 +231,21 @@
         font-size: 32px;
     }
     .followe{
-        width: 320px;
+        width: 300px;
     }
     .get-form{
         margin:40px auto 0 auto;
     
     }
         .fio , .phone , .quetion{
-            width: 300px;
-            font-size: 16px;
+            
+            font-size: 14px;
             
         }
         .fio{
-            width: 260px;
+            width: 200px;
+            display: block;
+            margin: auto;
         }
         .quetion{
             width: 260px;
