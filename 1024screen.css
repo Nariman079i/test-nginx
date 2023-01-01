@@ -137,8 +137,7 @@
     }
     .nav-urls {
         display: none;
-        font-size: 10px;
-        margin:auto 5 auto 0px;
+        
     }
     .nav-urls a{
         margin: auto 3px;
@@ -155,7 +154,7 @@
         flex: 1;
     }
     
-    .nav:active .nav-menu{
+    .nav:hover .nav-menu{
         top: 0;
     }
     .tours{
