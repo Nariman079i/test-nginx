@@ -63,7 +63,7 @@ body{
     height: 600px;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.49), rgba(0, 0, 0, 0.49)),
         url(https://i.pinimg.com/originals/71/9f/4c/719f4c8e50a9f2375f2d28b4db98a241.jpg) top;
-    background-size: cover ; 
+    background-size: cover; 
 }
 .header-background{
     width: 100%;
@@ -178,6 +178,37 @@ body{
     height: max-content;
     margin: auto;
 }
+
+/* TOUR TEMPLATE */
+.tour{
+    margin:60px auto;
+    width: 832px;
+    height: max-content;
+    font-size: 20px;
+}
+    .title{
+        font-weight: 700;
+    }
+.replace-button{
+    margin:30px auto;
+    display: block;
+    width: max-content;
+    padding: 10px 58px;
+    border: 1.7px solid;
+    color: #000000;
+}
+.tour-gallery{
+    width: 1010px;
+    height: max-content;
+    margin: auto;
+}
+    .tour-gallery-img{
+        width: 300px;
+        height: 300px;
+        display: inline-block;
+        margin: 15px;
+    }
+/* END TOUR TEMPLATE */
 .tour-wrapper{
     display: inline-block;
     position: relative;

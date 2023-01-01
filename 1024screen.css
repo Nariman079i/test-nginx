@@ -64,6 +64,15 @@
     .footer-content{
         width: 100%;
     }
+    .tour{
+        width: 90%;
+        margin: 5%;
+    }
+    .tour-gallery{
+        width: 680px;
+        margin: auto;
+
+    }
 }
 @media (max-width:680px) {
     .gallery{
@@ -99,7 +108,16 @@
         left: 155px;
     }
 
-    
+    .tour-gallery{
+        width: 90%;
+        margin: auto;
+
+    }
+    .tour-gallery-img{
+        width: 90%;
+        
+        
+    }
 }
 @media (max-width:540px) {
     .header{
