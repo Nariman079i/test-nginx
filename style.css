@@ -280,7 +280,7 @@ body{
 }
     .fio , .phone , .quetion{
         font-size: 18px;
-        width: 300px;
+        
         padding: 10px 20px;
         background: none;
         border: none;
@@ -289,17 +289,25 @@ body{
         color:#686868 ;
         outline: none;
     }
+    .fio{
+        width: 300px;
+    }
     .quetion{
-        width: 360px;
+        width: 340px;
+        padding: 0 auto;
         display: block;
-        margin: auto;
+        margin:0 auto;
+        text-align: center;
+    }
+    .quetion option{
         text-align: center;
     }
     .phone{
-        width: 200px;
+        width: 300px;
         display: block;
         margin:0 auto;
         padding: 0 auto;
+        text-align: center;
     }
 
 /* END TOUR TEMPLATE */
@@ -374,14 +382,14 @@ body{
         margin-left: 10px;
         margin-top: 3px;
         width: 500px;
-        height: 141px;
+        height: max-content;
         left: 965px;
         top: 2404px;
 
         font-family: 'Comfortaa';
         font-style: normal;
         font-weight: 300;
-        font-size: 20px;
+        font-size: 16px;
         line-height: 22px;
 
         color: #000000;
