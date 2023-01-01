@@ -136,7 +136,9 @@
 @media (max-width:540px) {
     .header{
         height: 800px;
+        
     }
+
     .nav-urls {
         display: none;
         
@@ -226,6 +228,9 @@
     }
     .theme-title{
         font-size: 24px;
+    }
+    .tour{
+        font-size: 17px;
     }
     .travel{
         width: 300px;
