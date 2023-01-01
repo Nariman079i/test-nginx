@@ -219,6 +219,73 @@ body{
         display: inline-block;
         margin: 15px;
     }
+.travel{
+    display: flex;
+    width: 1010px;
+    margin: auto;
+    height: 300px;
+    border: 2px solid #A2A2A2;
+}
+.travel-programm{
+    width: 505px;
+}
+.travel-programm-title{
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+    
+    text-align: center;
+    
+    color: #000000;
+    
+}
+.travel-programm-list{
+    display: block;
+    margin-top: 60px;
+    margin-left: 70px;
+    font-weight: 300;
+    font-size: 20px;
+}
+.travel-programm-price{
+    margin-top: 20px;
+    margin-left: 70px;
+    font-weight: 700;
+    font-size: 32px;
+}
+.followe{
+    width: 505px;
+}
+.get-form{
+    width: max-content;
+    display:block;
+    margin:40px auto 0 auto;
+
+}
+    .fio , .phone , .quetion{
+        font-size: 18px;
+        width: 300px;
+        padding: 10px 20px;
+        background: none;
+        border: none;
+        border-bottom: 2px solid #A2A2A2;
+        text-align: center;
+        color:#686868 ;
+        outline: none;
+    }
+    .quetion{
+        width: 360px;
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
+    .phone{
+        width: 200px;
+        display: block;
+        margin:0 auto;
+        padding: 0 auto;
+    }
+
 /* END TOUR TEMPLATE */
 .tour-wrapper{
     display: inline-block;

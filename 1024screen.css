@@ -73,6 +73,18 @@
         margin: auto;
 
     }
+    .travel{
+        display: block;
+        width: 540px;
+        height: 600px;
+    }
+    .travel-programm{
+        margin:  30px auto;
+        
+    }
+    .followe{
+        margin: 30px auto;
+    }
 }
 @media (max-width:680px) {
     .gallery{
@@ -193,6 +205,58 @@
     .theme-title{
         font-size: 24px;
     }
+    .travel{
+        width: 320px;
+        margin: auto;
+    }
+    .travel-programm{
+        width: 300px;
+    }
+    .travel-programm-title{
+        margin-top: 10px;
+        
+        
+    }
+    .travel-programm-list{
+        display: block;
+        margin-top:10px;
+        margin-left: 30px;
+        
+        
+        font-size: 16px;
+    }
+    .travel-programm-price{
+        margin-left: 30px;
+        font-weight: 700;
+        font-size: 32px;
+    }
+    .followe{
+        width: 320px;
+    }
+    .get-form{
+        margin:40px auto 0 auto;
     
+    }
+        .fio , .phone , .quetion{
+            width: 300px;
+            font-size: 16px;
+            
+        }
+        .fio{
+            width: 260px;
+        }
+        .quetion{
+            width: 260px;
+            display: block;
+            margin: auto;
+            text-align: center;
+            font-size: 14px;
+        }
+        .phone{
+            width: 200px;
+            display: block;
+            margin:0 auto;
+            padding: 0 auto;
+        }
 
 }
