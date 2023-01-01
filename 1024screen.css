@@ -136,6 +136,7 @@
         height: 800px;
     }
     .nav-urls {
+        display: none;
         font-size: 10px;
         margin:auto 5 auto 0px;
     }
@@ -152,6 +153,10 @@
     .nav-logo{
         width: 100px;
         flex: 1;
+    }
+    
+    .nav:hover .nav-menu{
+        top: 0;
     }
     .tours{
         width: 300px;
