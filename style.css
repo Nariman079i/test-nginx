@@ -23,14 +23,17 @@ body{
 }
 
 .nav-menu{
-    
+    z-index: -1;
     position: fixed;
-    top: -400px;
+    top: 0px;
     left: 0;
     width: 100%;
-    height: 300px;
+    height: 50px;
     background-color: #000000;
     
+}
+.nav-urls-active{
+    display: none;
 }
 
 .nav-content{
@@ -389,7 +392,7 @@ body{
         font-family: 'Comfortaa';
         font-style: normal;
         font-weight: 300;
-        font-size: 16px;
+        font-size: 15px;
         line-height: 22px;
 
         color: #000000;
