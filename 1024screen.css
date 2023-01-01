@@ -152,8 +152,24 @@
     .nav-logo{
         width: 100px;
         flex: 1;
+        z-index: 3;
     }
-    
+    .nav-urls-active{
+        position: absolute;
+        width: 150px;
+        height: max-content;
+        margin-top: 100px;
+        right: 30px;
+        
+    }
+    .nav-urls-active a{
+        
+        
+        margin: 30px;
+        color: aliceblue;
+        font-weight: 700;
+    }
+
     .nav:hover .nav-menu{
         top: 0;
     }
