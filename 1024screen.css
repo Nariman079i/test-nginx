@@ -155,7 +155,7 @@
         flex: 1;
     }
     
-    .nav:hover .nav-menu{
+    .nav:active .nav-menu{
         top: 0;
     }
     .tours{
