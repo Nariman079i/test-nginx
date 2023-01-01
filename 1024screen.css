@@ -102,6 +102,9 @@
     
 }
 @media (max-width:540px) {
+    .header{
+        height: 800px;
+    }
     .nav-urls {
         font-size: 10px;
         margin:auto 5 auto 0px;
