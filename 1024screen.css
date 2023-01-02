@@ -202,7 +202,7 @@
     .menu-img:hover{
         display: block;
         background-color: none;
-        background-image: url(./menu-deactivate.svg);
+        background-image: url(./menu-deactive.svg);
         background-size: cover;
     }
     .menu-img:hover .nav-menu{
