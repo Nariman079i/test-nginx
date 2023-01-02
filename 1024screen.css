@@ -200,8 +200,9 @@
         font-weight: 700;
     }
     .menu-img:hover{
+        display: block;
         background-color: none;
-        background-image: url(./menu-deactivate.png);
+        background-image: url(./menu-deactivate.svg);
         background-size: cover;
     }
     .menu-img:hover .nav-menu{
