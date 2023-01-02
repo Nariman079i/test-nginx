@@ -150,7 +150,7 @@
         margin: auto 3px;
     }
     .nav{
-        z-index: 5;
+        z-index: 6;
         width: 100%;
         height: 50px;
         display: block;
@@ -161,11 +161,16 @@
         z-index: 5;
         
     }
+    .menu-img{
+        display: block;
+        
+        
+    }
     .nav-logo{
         width: 100px;
-
-        flex: 1;
-        z-index: 3;
+        margin: auto;
+        display: flex;
+        z-index: 1;
     }
     .nav-logo-img{
         width: 50px;
@@ -185,6 +190,8 @@
         text-align: center;
         
     }
+    
+    
     .nav-urls-active a{
         
         z-index: -1;
@@ -192,15 +199,21 @@
         color: rgb(0, 0, 0);
         font-weight: 700;
     }
-
-    .nav:hover .nav-menu{
+    .menu-img:hover{
+        background-color: none;
+        background: url(/menu-deactive.svg);
+        background-size: cover;
+    }
+    .menu-img:hover .nav-menu{
         top: 50px;
         z-index: 0;
         color: aliceblue;
+
     }
-    .nav:hover .nav-urls-active a{
+    .menu-img:hover .nav-urls-active a{
         color: #fff;
     }
+    
     .tours{
         width: 300px;
 
