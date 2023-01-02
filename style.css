@@ -21,7 +21,7 @@ body{
     height: 30px;
     margin:auto 10px;
     
-    background-image: url(/menu.svg) ;
+    background-image: url(/menu.png) ;
     background-size: cover;
 }
 .nav{
