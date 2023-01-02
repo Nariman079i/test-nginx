@@ -201,7 +201,7 @@
     }
     .menu-img:hover{
         background-color: none;
-        background: url(/menu-deactive.svg);
+        background-image: url(/menu-deactive.svg);
         background-size: cover;
     }
     .menu-img:hover .nav-menu{
