@@ -138,7 +138,9 @@
         height: 800px;
         padding-top: 50px;
     }
-    
+    .header-text{
+        font-size: 14px;
+    }
 
     .nav-urls {
         display: none;
