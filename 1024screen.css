@@ -199,16 +199,33 @@
         color: rgb(0, 0, 0);
         font-weight: 700;
     }
-    .menu-img:hover{
+    .menu-img:active{
         display: block;
-        width: 40px;
-        height: 40px;
+        width: 30px;
+        height: 30px;
         
-        background-color: none;
-        background: url(./medu-deactive.png);
+        
+        background-image: url(./medu-deactive.png);
         background-size: cover;
         z-index: 50;
     }
+    .menu-img:active .nav-menu{
+        top: 50px;
+        z-index: 0;
+        color: aliceblue;
+
+    }
+    .menu-img:hover{
+        display: block;
+        width: 30px;
+        height: 30px;
+        
+        
+        background-image: url(./medu-deactive.png);
+        background-size: cover;
+        z-index: 50;
+    }
+    
     .menu-img:hover .nav-menu{
         top: 50px;
         z-index: 0;
