@@ -182,7 +182,8 @@
         line-height: 55px
     }
     .nav-urls-active{
-        z-index: 0;
+        position: relative;
+        z-index: -5;
         width: 100%;
         height: max-content;
         display: block;
@@ -193,28 +194,13 @@
     
     
     .nav-urls-active a{
-        
-        z-index: 0;
+        position: relative;
+        z-index: -1;
         margin:auto 4%;
         color: rgb(0, 0, 0);
         font-weight: 700;
     }
-    .menu-img:active{
-        display: block;
-        width: 30px;
-        height: 30px;
-        
-        
-        background-image: url(./medu-deactive.png);
-        background-size: cover;
-        z-index: 50;
-    }
-    .menu-img:active .nav-menu{
-        top: 50px;
-        z-index: 0;
-        color: aliceblue;
-
-    }
+    
     .menu-img:hover{
         display: block;
         width: 30px;
@@ -223,17 +209,18 @@
         
         background-image: url(./medu-deactive.png);
         background-size: cover;
-        z-index: 50;
+        z-index: 5;
     }
     
     .menu-img:hover .nav-menu{
         top: 50px;
-        z-index: 0;
+        z-index: 3;
         color: aliceblue;
 
     }
     .menu-img:hover .nav-urls-active a{
         color: #fff;
+        z-index: 3;
     }
     
     .tours{
