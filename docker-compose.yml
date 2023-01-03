@@ -5,6 +5,6 @@ services:
     container_name: LocalServer
     image: nginx
     ports: 
-      - 8001:80
+      - 5432:80
     volumes:
       - .:/usr/share/nginx/html
