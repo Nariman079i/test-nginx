@@ -201,9 +201,13 @@
     }
     .menu-img:hover{
         display: block;
+        width: 40px;
+        height: 40px;
+        
         background-color: none;
-        background-image: url(./menu-deactive.svg);
+        background: url(./medu-deactive.png);
         background-size: cover;
+        z-index: 50;
     }
     .menu-img:hover .nav-menu{
         top: 50px;

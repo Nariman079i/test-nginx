@@ -17,11 +17,11 @@ body{
 .menu-img{
     display: none;
 
-    width: 30px;
-    height: 30px;
-    margin:auto 10px;
+    width: 40px;
+    height: 28px;
+    margin:auto 15px;
     
-    background-image: url(./menu.svg) ;
+    background-image: url(./menu.png) ;
     background-size: cover;
 }
 .nav{
